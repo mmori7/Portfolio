@@ -6,9 +6,10 @@ interface ProjectCardProps {
   name: string;
   description: string;
   status?: string;
+  link?: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, status }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, status, link }) => {
   return (
     <div className="border border-gray-200 rounded-lg p-4 hover:shadow-sm transition-shadow">
       <div className="flex justify-between items-center mb-2">
@@ -20,10 +21,16 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ name, description, status }) 
         )}
       </div>
       <p className="text-gray-600 mb-2">{description}</p>
-      {/* Placeholder for project link - you can add actual links later */}
-      <a href="#" className="text-blue-600 hover:underline flex items-center">
-        <Link className="mr-2 w-4 h-4" /> View Project
-      </a>
+      {link && (
+        <a 
+          href={link} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-blue-600 hover:underline flex items-center"
+        >
+          <Link className="mr-2 w-4 h-4" /> View Project
+        </a>
+      )}
     </div>
   );
 };
