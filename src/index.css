@@ -99,3 +99,46 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .stars {
+    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: bgscroll 30s linear infinite;
+    opacity: 0.3;
+  }
+
+  .twinkling {
+    background: transparent url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png) repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: bgscroll 20s linear infinite;
+    opacity: 0.2;
+  }
+
+  @keyframes bgscroll {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: -1000px 0;
+    }
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
