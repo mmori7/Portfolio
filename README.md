@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
 
-## Project info
+# Mohit Mori's Personal Portfolio
 
-**URL**: https://lovable.dev/projects/9b1a8457-0561-4f2a-b624-6d1ed74ee13b
+## Overview
 
-## How can I edit this code?
+This is a personal portfolio website showcasing my professional background, projects, and achievements as a Computer Science student.
 
-There are several ways of editing your application.
+## 🚀 Technologies Used
 
-**Use Lovable**
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- shadcn/ui
+- Lucide React Icons
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9b1a8457-0561-4f2a-b624-6d1ed74ee13b) and start prompting.
+## 📋 Sections
 
-Changes made via Lovable will be committed automatically to this repo.
+- Profile
+- Education
+- Projects
+- Leadership
+- Achievements
 
-**Use your preferred IDE**
+## 🎓 Education
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **California State University Long Beach**
+- Major: Computer Science
+- GPA: 3.45
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚧 Projects
 
-Follow these steps:
+### Resume Match AI Coach
+- An AI-powered tool to enhance resume matching and career guidance
+- [View Project on GitHub](https://github.com/mmori7/resume-match-ai-coach)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Cosmic Habit Quest
+- Habit tracking application (in progress)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🏆 Achievements
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Goldman Sachs Certificate for solving database problem
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🌐 Connect with Me
+
+- [GitHub](https://github.com/mmori7)
+- [LinkedIn](https://www.linkedin.com/in/mohitmori)
+
+## 📦 Local Development
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/mmori7/portfolio
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🌈 Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployed using [Lovable](https://lovable.dev)
 
-**Use GitHub Codespaces**
+## 📝 License
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9b1a8457-0561-4f2a-b624-6d1ed74ee13b) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+[Insert License Type - e.g., MIT]
