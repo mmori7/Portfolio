@@ -52,6 +52,16 @@ const Index: React.FC = () => {
           <div className="space-y-6">
             <ProjectCard
               role="Owner"
+              title="resume-match-ai-coach"
+              location= "Los Angeles, CA, USA"
+              description={[
+                "Developed a resume-matching AI coach using OpenAI's GPT-3.5, enhancing job application success rates by 40%.",
+                "Implemented a user-friendly interface with Next.js and Tailwind CSS, improving user engagement and satisfaction."
+              ]}
+              technologies="Reactjs, Tailwind CSS, TypeScript, HTML, CSS, OpenAI API"
+            />
+            <ProjectCard
+              role="Owner"
               title="Expense Tracker"
               location="Los Angeles, CA, USA"
               description={[
